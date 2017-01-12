@@ -1,4 +1,4 @@
-package com.cice.javatutorial.poo.collections;
+package com.cice.javatutorial.collections;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import com.cice.javatutorial.poo.interfaces.Racional;
+import com.cice.javatutorial.interfaces.Racional;
 
 public class SetTest {
 

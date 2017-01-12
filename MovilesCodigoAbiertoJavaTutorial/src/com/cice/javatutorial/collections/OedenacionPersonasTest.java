@@ -1,4 +1,4 @@
-package com.cice.javatutorial.poo.collections;
+package com.cice.javatutorial.collections;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Comparator;
 
 import com.cice.javatutorial.poo.Persona;
 
-import poo.Persona;
+import com.cice.javatutorial.poo.Persona;
 
 public class OedenacionPersonasTest {
 
@@ -30,7 +30,8 @@ public class OedenacionPersonasTest {
 		});
 		*/
 		// usando lambda
-		Collections.sort(list,(o1,o2)->01.getEdad()-o2.getEdad());
+		Collections.sort(list,(o1,o2)->o1.getEdad()-o2.getEdad());
+
 		for (Persona p:list){
 			p.print();
 		}

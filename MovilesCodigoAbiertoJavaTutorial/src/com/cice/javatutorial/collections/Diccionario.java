@@ -1,4 +1,4 @@
-package com.cice.javatutorial.poo.collections;
+package com.cice.javatutorial.collections;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

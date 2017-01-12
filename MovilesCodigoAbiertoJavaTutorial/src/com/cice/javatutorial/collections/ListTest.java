@@ -1,9 +1,10 @@
-package com.cice.javatutorial.poo.collections;
+package com.cice.javatutorial.collections;
 import java.util.List;
+
+import com.cice.javatutorial.interfaces.Racional;
+
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import com.cice.javatutorial.poo.interfaces.Racional;
 public class ListTest {
 
 	public static void main(String[] args){

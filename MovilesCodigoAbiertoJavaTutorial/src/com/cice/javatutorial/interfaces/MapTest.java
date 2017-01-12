@@ -1,4 +1,4 @@
-package com.cice.javatutorial.poo.interfaces;
+package com.cice.javatutorial.interfaces;
 import com.cice.javatutorial.poo.Persona;
 import java.util.HashMap;
 import java.util.Map;

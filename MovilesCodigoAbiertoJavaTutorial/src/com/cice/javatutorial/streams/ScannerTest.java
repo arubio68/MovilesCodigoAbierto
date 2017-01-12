@@ -22,7 +22,7 @@ public class ScannerTest {
 					
 				}catch(InputMismatchException e){
 					try {
-						float f sc.nextFloat();
+						float f =sc.nextFloat();
 						suma+=f;
 					} catch (InputMismatchException e2){
 						sc.next();

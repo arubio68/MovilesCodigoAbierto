@@ -1,4 +1,4 @@
-package com.cice.javatutorial;
+package com.cice.javatutorial.streams;
 
 public class ArrayTest {
 

@@ -1,4 +1,4 @@
-package com.cice.javatutorial;
+package com.cice.javatutorial.ejercicios;
 /**
  * Comentario para generar documentación
  * @author cice

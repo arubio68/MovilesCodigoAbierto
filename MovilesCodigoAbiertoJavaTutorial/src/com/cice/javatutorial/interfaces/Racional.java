@@ -1,4 +1,4 @@
-package com.cice.javatutorial.poo.interfaces;
+package com.cice.javatutorial.interfaces;
 
 public class Racional implements Comparable {
 	private int numerador;

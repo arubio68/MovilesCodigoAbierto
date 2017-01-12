@@ -1,4 +1,4 @@
-package com.cice.javatutorial;
+package com.cice.javatutorial.ejercicios;
 
 import java.util.Properties;
 import java.util.Set;
