@@ -6,7 +6,7 @@ import java.util.Comparator;
 
 import com.cice.javatutorial.poo.Persona;
 
-
+import poo.Persona;
 
 public class OedenacionPersonasTest {
 
@@ -19,7 +19,8 @@ public class OedenacionPersonasTest {
 		list.add(new Persona("Macea",98));
 		list.add(new Persona("Rubio11111",23));
 		list.add(new Persona("Macea2222",38));
-		Collections.sort(list, new Comparator<Persona>(){
+		/*
+		 * Collections.sort(list, new Comparator<Persona>(){
 
 			@Override
 			public int compare(Persona o1, Persona o2) {
@@ -27,6 +28,9 @@ public class OedenacionPersonasTest {
 				return o1.getEdad() - o2.getEdad();
 			}
 		});
+		*/
+		// usando lambda
+		Collections.sort(list,(o1,o2)->01.getEdad()-o2.getEdad());
 		for (Persona p:list){
 			p.print();
 		}

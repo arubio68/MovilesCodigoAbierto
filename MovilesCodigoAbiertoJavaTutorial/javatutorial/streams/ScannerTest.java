@@ -13,19 +13,25 @@ public class ScannerTest {
 		try {
 			Scanner sc = new Scanner(new FileInputStream("Palabras2"));
 			//sc.useDelimiter("\\s*ax\\s*");
-			
+			float suma=0;
 			while (sc.hasNext()){
 				try{
 					int x=sc.nextInt();
 					System.out.println("Numero: "+ x);
-					total= total + x;
+					suma+= x;
 					
 				}catch(InputMismatchException e){
-					sc.next();
+					try {
+						float f sc.nextFloat();
+						suma+=f;
+					} catch (InputMismatchException e2){
+						sc.next();
+					}
 				}
 				//System.out.println(sc.next());
 			}
-			System.out.println(total);
+			
+			System.out.println(suma);
 		}catch(FileNotFoundException e){
 			e.printStackTrace();
 		}
